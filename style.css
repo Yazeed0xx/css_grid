@@ -1,8 +1,18 @@
+@media only screen and (min-width: 700px) {
+    .container{background: green;}
+    .item3{
+        background-color: rgba(236, 63, 135, 0.419);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+
 .container{
     display: grid;
     border: 10px solid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 90vh;
+    height: 100vh;
     gap: 10px;
 }
 .item1{
